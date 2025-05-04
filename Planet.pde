@@ -19,7 +19,7 @@ class Planet {
   Planet(int id, float m, float x, float y, float z, float rad) {
    this.id = id;
    this. mass = m;
-   this.position = new PVector(x, y, Z);
+   this.position = new PVector(x, y, z);
    this.velocity = new PVector(random(-10,10), random(-10,10), O);   // Arbitrary starting velocity
    this.acceleration = new PVector(0, 0,0);
    this.rad = rad;
