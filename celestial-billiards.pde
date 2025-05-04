@@ -82,7 +82,7 @@ void keyPressed() {
     pauseSim();
     break;
   case 139: // +
-    addPlanet(planets.size());
+    addPlanet(planets.size()+1);
     break;
   case 140: // -
     break;
