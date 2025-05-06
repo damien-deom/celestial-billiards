@@ -7,7 +7,7 @@ Simulates stars that behave like billiard balls. Made with Processing.
 ## Controls
 
 - ENTER to pause simulation
-- SPACE ro rester simulation
+- SPACE ro reset simulation
 - (PLUS) to add a planet
   
 
