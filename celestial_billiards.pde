@@ -159,6 +159,16 @@ void draw() {
   for (Planet planet : planets) {
     planet.display();
   }
-    
+  cam.beginHUD();
+  //fill(0, 128);
+  //rect(0, 0, 70, 30);
+  fill(255);
+  textSize(20); 
+  text("SIMULATION : " + (isPaused ? "PAUSED" : "RUNNING") + " (Press Enter switch, Enter to Reset)" , 10,18);
+  text("FRAME RATE : " + nfc(frameRate, 2) + " FPS", 10, 58);
+  text("DT : " + dt + " s", 10, 88);
+  text("PLANETS       : " + planets.size() + " (Press +/-)", 10, 38);
+  
+  cam.endHUD();  
 
 }
